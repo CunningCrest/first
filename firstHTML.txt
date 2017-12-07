@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Тег SCRIPT</title>
+  <script src="jquery-3.2.1.min.js"></script>
+ </head>
+ <body>
+   <button  class="redStyle">Get information</button>
+   <h1>List of films:</h1>
+   <ol/>
+   <script type="text/javascript" src = "example.js">
+   </script>
+ </body>
+</html>
