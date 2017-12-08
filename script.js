@@ -9,7 +9,7 @@ $(function() {
         .then((data)=> {
           $("ol").append("<li>" + data.Title + "<br/>"  + "Actors: "
           + data.Actors + "<br/>" + "Writer: " + data.Writer + "</li>");
-        }, function(e) {
+        },(e)=> {
           alert(e);
         });
       }
