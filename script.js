@@ -1,5 +1,5 @@
 $(function() {
-  $('button').bind('click', function() {
+  $('button').on('click', function() {
     var randomMovieArray = ['Star Wars','Released','Game of Thrones',
     'Harry Potter', 'Who I Am' , 'Kill Bill'];
     var apiUrl = 'http://www.omdbapi.com/?i=tt3896198&apikey=1f944386&'
